@@ -20,7 +20,5 @@ class Polynomial:
 
         return " + ".join(reversed(terms)) or "0"
 
-    def __repr__(self):
-        return self.__class__.__name__ + "(" + repr(self.coefficients) + ")"
 
     
